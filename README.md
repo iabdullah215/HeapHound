@@ -1,6 +1,6 @@
 # HeapHound
 
-**HeapHound Analyzer** is a tool for analyzing and generating reports from Java heap dump files (`.hprof`).  
+**HeapHound** is a tool for analyzing and generating reports from Java heap dump files (`.hprof`).  
 It extracts forensic artifacts, sensitive information, and risk assessments to assist in security investigations and memory forensics.
 
 ## Features
