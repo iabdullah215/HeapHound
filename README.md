@@ -1,6 +1,6 @@
-# HeapDump Analyzer
+# HeapHound
 
-**HeapDump Analyzer** is a tool for analyzing and generating reports from Java heap dump files (`.hprof`).  
+**HeapHound Analyzer** is a tool for analyzing and generating reports from Java heap dump files (`.hprof`).  
 It extracts forensic artifacts, sensitive information, and risk assessments to assist in security investigations and memory forensics.
 
 ## Features
@@ -47,13 +47,13 @@ python3 heapdump_analyzer.py [-h] -f FILE [-o {json,html,text}] [--all]
 
 ```bash
 # Only generate JSON report
-python3 heapdump_analyzer.py -f heapdump.hprof -o json
+python3 HeapHound.py -f heapdump.hprof -o json
 
 # Only generate HTML report
-python3 heapdump_analyzer.py -f heapdump.hprof -o html
+python3 HeapHound.py -f heapdump.hprof -o html
 
 # Generate all reports (JSON, HTML, and TXT)
-python3 heapdump_analyzer.py -f heapdump.hprof --all
+python3 HeapHound.py -f heapdump.hprof --all
 ```
 
 ## Sample Report
